@@ -26,6 +26,5 @@ public class Homework10_21{
 			numberToDivide = numberToDivide.add(BigInteger.ONE);
 		}
 		timer.stop();
-		timer.getElapsedTime();
 	}
 }
