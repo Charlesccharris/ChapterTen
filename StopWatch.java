@@ -9,10 +9,7 @@ public class StopWatch{
 
 	public void stop(){
 		this.endTime = System.currentTimeMillis();
-	}
-
-	public void getElapsedTime(){
 		long elapsedTime = this.endTime - this.startTime;
-		System.out.println("It took " + elapsedTime + " milliseconds to finish");
+		System.out.println("It took " + elapsedTime + " milliseconds to finish the calculations");
 	}
 }
