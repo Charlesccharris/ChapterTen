@@ -31,9 +31,9 @@ public class Homework10_18{
 				foundNumbers++;
 				System.out.println("Found " + foundNumbers);
 			}
-			ourNumber = ourNumber.add(BigInteger.ONE);
+//			ourNumber = ourNumber.add(BigInteger.ONE);
+			ourNumber = ourNumber.nextProbablePrime();
 		}
 		timer.stop();
-		timer.getElapsedTime();
 	}
 }
