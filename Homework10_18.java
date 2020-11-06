@@ -10,10 +10,8 @@ public class Homework10_18{
 		StopWatch timer = new StopWatch();
 
 		boolean isPrime = true;
-		System.out.print("Enter the number that you would like to start at: ");
-		BigInteger ourNumber = new BigInteger(input.next());
-		System.out.print("Enter how many prime numbers you want to find: ");
-		int totalNumbers = input.nextInt();
+		BigInteger ourNumber = new BigInteger("9871284");
+		int totalNumbers = 5;
 		int foundNumbers = 0;
 
 		timer.start();
